@@ -1,0 +1,9 @@
+---
+applications:
+- path: target/Hosp2.war
+  memory: 256M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: bhmx
+  host: bhmx
+  disk_quota: 256M
