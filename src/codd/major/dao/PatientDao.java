@@ -1,10 +1,11 @@
 package codd.major.dao;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 
 import codd.major.model.PatRegModel;
 
-import com.mysql.jdbc.PreparedStatement;
+
 
 public class PatientDao
 {

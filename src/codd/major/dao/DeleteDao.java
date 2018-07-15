@@ -1,8 +1,9 @@
 package codd.major.dao;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 
-import com.mysql.jdbc.PreparedStatement;
+
 
 public class DeleteDao 
 {

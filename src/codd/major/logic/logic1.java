@@ -23,7 +23,7 @@ public class logic1
 		try
         {
         String[] to ={obj.getEmailid()};
-       if(EmailSender.sendmail("softyexpo2016@gmail.com","awesome abhishek 1234","Reset password","Your new Passowrd for BM Medical Centre is"+pass,to))
+       if(EmailSender.sendmail("softyexpo2016@gmail.com","gmail@Sagar2210","Reset password","Your new Passoword for BM Medical Centre is"+pass,to))
        {
           return true;
        }

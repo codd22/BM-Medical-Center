@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 import codd.major.model.LabTestModel;
 
-import com.mysql.jdbc.PreparedStatement;
+import java.sql.PreparedStatement;
 
 public class TestDao
 {
