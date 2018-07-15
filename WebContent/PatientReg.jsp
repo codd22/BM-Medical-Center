@@ -52,7 +52,7 @@
 					</div>
 					<div class="gaps">
 						<p>Any kind of internal injury diagnosed in the Past Record?</p>
-						<input type="text" name="PInjury" placeholder="" />
+						<input type="text" name="IInjury" placeholder="" />
 					</div>
 
 					<div class="gaps">
