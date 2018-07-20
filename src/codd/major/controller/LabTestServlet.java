@@ -34,6 +34,7 @@ public class LabTestServlet extends HttpServlet {
 	String result=request.getParameter("Result");
 	String description=request.getParameter("Description");
 	
+	System.out.println("test :"+test);
 	obj.setId(id);
 	obj.setTest(test);
 	//----------------------------[Patient Test Charges]-------------------------------------------------------//
@@ -44,7 +45,7 @@ public class LabTestServlet extends HttpServlet {
 	obj.setPrice(price);
 	obj.setResult(result);
 	obj.setDescription(description);
-	String sql="insert into LabTestData(Pid,Test,Physician,Result,Description) values(?,?,?,?,?);";
+	String sql="insert into labtestdata(Pid,Test,Physician,Result,Description) values(?,?,?,?,?);";
 	String sql2 = "insert into patientcharges(PatientId,Service,Cost) values(?,?,?);";
 	try {
 		String msg=TestDao.Insert(sql, obj);

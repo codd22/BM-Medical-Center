@@ -53,7 +53,7 @@ public class TreatmentDao
 		try
 		{
 		PreparedStatement ps=(PreparedStatement)con.prepareStatement(sql);
-		ps.setString(1,obj.getPhySpeciality());
+		ps.setString(1,"Hospitalist");
 		ResultSet rs=ps.executeQuery();
 		if(rs.next())
 			return rs.getInt(1);

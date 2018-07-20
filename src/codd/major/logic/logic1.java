@@ -23,13 +23,14 @@ public class logic1
 		try
         {
         String[] to ={obj.getEmailid()};
-       if(EmailSender.sendmail("softyexpo2016@gmail.com","gmail@Sagar2210","Reset password","Your new Passoword for BM Medical Centre is"+pass,to))
+       if(EmailSender.sendmail("softyexpo2016@gmail.com","gmail@softy2210","Reset password","Your new Passoword for BM Medical Centre is "+pass,to))
        {
           return true;
        }
     }
 	catch(Exception e)
     {
+		System.out.println("Error in logic1 file");
     	return false;
     }
 		return false;

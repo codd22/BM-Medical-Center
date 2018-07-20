@@ -1,6 +1,6 @@
 ---
 applications:
-- path: target/Hosp2.war
+- path: target/Hosp223.war
   memory: 256M
   instances: 1
   domain: eu-gb.mybluemix.net

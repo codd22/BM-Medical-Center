@@ -89,8 +89,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <li class="breadcrumb-item"><a href="adminpanel.jsp">Home</a> <i class="fa fa-angle-right"></i></li>
             </ol>
            <ol class="breadcrumb">    
-		<li class="breadcrumb-item"><img src="images/welcome.gif" alt="Image not found" width="500" height="377"></li>
-		<li class="breadcrumb-item"><img src="images/admin.gif" alt="Image not found" width="500" height="377"></li>
+		<li class="breadcrumb-item"><img src="images/welcome.gif" alt="Image not found" width="550" height="350"></li>
+		<li class="breadcrumb-item"><img src="images/admin.gif" alt="Image not found" width="600" height="350"></li>
 		</ol>
             
 <!-- script-for sticky-nav -->
